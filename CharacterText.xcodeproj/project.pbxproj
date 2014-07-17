@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5468B3195CB3440049ACE9 /* CATextLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5468B2195CB3440049ACE9 /* CATextLayerExtensions.swift */; };
+		AF5468B5195CBA920049ACE9 /* NoRenderLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5468B4195CBA920049ACE9 /* NoRenderLayoutManager.swift */; };
 		AF7BB325195C749600E46AF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BB324195C749600E46AF2 /* AppDelegate.swift */; };
 		AF7BB327195C749600E46AF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BB326195C749600E46AF2 /* ViewController.swift */; };
 		AF7BB32A195C749600E46AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7BB328195C749600E46AF2 /* Main.storyboard */; };
 		AF7BB32C195C749600E46AF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7BB32B195C749600E46AF2 /* Images.xcassets */; };
 		AF7BB338195C749600E46AF2 /* CharacterTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BB337195C749600E46AF2 /* CharacterTextTests.swift */; };
+		AF7BB342195C74BE00E46AF2 /* CharacterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7BB341195C74BE00E46AF2 /* CharacterTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF5468B2195CB3440049ACE9 /* CATextLayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATextLayerExtensions.swift; sourceTree = "<group>"; };
+		AF5468B4195CBA920049ACE9 /* NoRenderLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoRenderLayoutManager.swift; sourceTree = "<group>"; };
 		AF7BB31F195C749600E46AF2 /* CharacterText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharacterText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7BB323195C749600E46AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF7BB324195C749600E46AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		AF7BB331195C749600E46AF2 /* CharacterTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharacterTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7BB336195C749600E46AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF7BB337195C749600E46AF2 /* CharacterTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTextTests.swift; sourceTree = "<group>"; };
+		AF7BB341195C74BE00E46AF2 /* CharacterTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				AF7BB328195C749600E46AF2 /* Main.storyboard */,
 				AF7BB32B195C749600E46AF2 /* Images.xcassets */,
 				AF7BB322195C749600E46AF2 /* Supporting Files */,
+				AF7BB341195C74BE00E46AF2 /* CharacterTextView.swift */,
+				AF5468B2195CB3440049ACE9 /* CATextLayerExtensions.swift */,
+				AF5468B4195CBA920049ACE9 /* NoRenderLayoutManager.swift */,
 			);
 			path = CharacterText;
 			sourceTree = "<group>";
@@ -208,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5468B3195CB3440049ACE9 /* CATextLayerExtensions.swift in Sources */,
 				AF7BB327195C749600E46AF2 /* ViewController.swift in Sources */,
 				AF7BB325195C749600E46AF2 /* AppDelegate.swift in Sources */,
+				AF5468B5195CBA920049ACE9 /* NoRenderLayoutManager.swift in Sources */,
+				AF7BB342195C74BE00E46AF2 /* CharacterTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +409,7 @@
 				AF7BB33D195C749600E46AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF7BB33E195C749600E46AF2 /* Build configuration list for PBXNativeTarget "CharacterTextTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +418,7 @@
 				AF7BB340195C749600E46AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
