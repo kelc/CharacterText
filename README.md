@@ -26,3 +26,6 @@ FadingLabel:
 MotionLabel:
 
 [![MotionLabel](http://i.imgur.com/jGR7PsR.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
+
+
+If you are looking for an Objective-C version, hit me up on twitter. @SwiftYeti
