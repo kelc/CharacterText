@@ -1,10 +1,9 @@
-##CharacterText
-
-**UILabel subclass to perform text effects**
-Based as example for https://swiftyeti.com/texteffects-with-nslayoutmanager
+CharacterText
 =============
 
-<br/>
+**UILabel subclass to perform text effects**
+
+Blog Post: https://swiftyeti.com/texteffects-with-nslayoutmanager
 
 CharacterText uses NSLayoutManager to position CATextLayers for each glyph in your string. This gives you the power to create some neat text effect using all the attributes of CATextLayer.
 
@@ -17,10 +16,13 @@ CharacterLabel can be used in place of UILabel.
 You can subclass CharacterLabel to then create your own animations. Three examples are provided: FallingLabel, FadingLabel, and MotionLabel.
 
 FallingLabel:
-[![FallingLabel](https://swiftyeti.com/content/images/2014/Jul/fallingLabel-1.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
+
+[![FallingLabel](http://i.imgur.com/0R2iMOp.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
 
 FadingLabel:
-[![FadingLabel](https://swiftyeti.com/content/images/2014/Jul/Secret_reimagined.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
+
+[![FadingLabel](http://i.imgur.com/fzUTN4E.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
 
 MotionLabel:
-[![MotionLabel](https://swiftyeti.com/content/images/2014/Jul/motionLabel.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
+
+[![MotionLabel](http://i.imgur.com/jGR7PsR.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
